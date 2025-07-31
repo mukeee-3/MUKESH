@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mukesh M | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <!-- Navbar -->
+  <header class="bg-white shadow-md fixed top-0 w-full z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Mukesh M</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex items-center justify-center text-center bg-gradient-to-r from-blue-100 to-purple-100 pt-20">
+    <div>
+      <h2 class="text-4xl md:text-6xl font-bold">Hello, I'm Mukesh</h2>
+      <p class="mt-4 text-lg md:text-xl">Cybersecurity Enthusiast | Student | Developer</p>
+      <a href="#projects" class="mt-6 inline-block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700">View My Work</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6 text-center">About Me</h3>
+      <p class="max-w-2xl mx-auto text-center text-lg">
+        I'm a passionate engineering student focused on cybersecurity, networking, and building secure solutions. Currently learning and experimenting cybersecurity with tools and cloud technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-8 text-center">Projects</h3>
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-2">Motion-Activated Keylogger with Cloud</h4>
+          <p class="mb-2 text-gray-700">Built using ESP32 WROOM, PIR sensor, and Firebase for cloud logging. Detects motion and records keystrokes securely.</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+          <h4 class="text-xl font-semibold mb-2">Python based Cyber-safe IDLE</h4>
+          <p class="mb-2 text-gray-700">CLI tool that parses Python code using AST and highlights vulnerable patterns like use of `os.system()` and hardcoded credentials.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6 text-center">Contact Me</h3>
+      <div class="max-w-md mx-auto">
+        <form action="https://formspree.io/f/your-id" method="POST" class="space-y-4">
+          <input type="text" name="name" placeholder="Your Name" class="w-full px-4 py-2 border rounded-md" required />
+          <input type="email" name="email" placeholder="Your Email" class="w-full px-4 py-2 border rounded-md" required />
+          <textarea name="message" rows="4" placeholder="Your Message" class="w-full px-4 py-2 border rounded-md" required></textarea>
+          <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto text-center">
+      <div class="mb-4 space-x-4 text-xl">
+        <a href="https://github.com/mukeee-3" target="_blank" class="hover:text-blue-400">
+          <i class="ph ph-github-logo"></i>
+        </a>
+        <a href="www.linkedin.com/in/mukesh-m-09b43024b" target="_blank" class="hover:text-blue-400">
+          <i class="ph ph-linkedin-logo"></i>
+        </a>
+        <a href="https://instagram.com/mukeee3_" target="_blank" class="hover:text-blue-400">
+          <i class="ph ph-instagram-logo"></i>
+        </a>
+      </div>
+      <p>&copy; 2025 Mukesh M. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
